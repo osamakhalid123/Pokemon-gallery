@@ -1,0 +1,87 @@
+
+.pokemonContainer{
+    margin: 0 auto;
+}
+.pokemonCardsContainer {
+
+    margin: 50px auto;
+ 
+}
+
+.pokemonCardLink {
+    display: flex;
+    justify-content: center;
+}
+
+.pokemonImg {
+    background-color: #cacaca;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.pokemonCard {
+    border: 1px solid gainsboro;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-between;
+    min-height: 300px;
+    width: 260px;
+    border-radius: 8px;
+    margin: 10px 0;
+
+}
+
+.pokemonDetailsContianer {
+    padding: 10px;
+    width: 100%;
+
+}
+
+.pokemonName {
+    color: black;
+    font-weight: bold;
+    margin: 15px 0;
+}
+
+.pokemonAbilities {
+    display: flex;
+    width: 100%;
+    align-items: flex-start;
+}
+
+.pokemonAbilities p {
+    color: white;
+    background-color: #00D700;
+    padding: 8px;
+    margin-bottom: 5px;
+    border-radius: 8px;
+    margin-right: 15px;
+}
+
+.nextButton,.prevButton{
+    background-color: red;
+    color: white;
+    padding: 5px 8px;
+    outline: none;
+    border: none;
+    border-radius: 6px;
+}
+
+.paginationContainer{
+    margin: 20px 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.prevButton:disabled{
+    background-color: #C5C5C5;
+    color: #6C6C6C;
+   
+}
+
+.noResults{
+text-align: center;
+}

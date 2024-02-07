@@ -1,0 +1,39 @@
+.headerContainer {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #DF5E56;
+  padding: 0 5px;
+  height: 100px;
+}
+
+.SearchInput input {
+  border: none;
+  background-color: #E4766F;
+  padding: 7px;
+  border-radius: 5px;
+
+}
+
+.SearchInput input::placeholder {
+  color: #EEA8A4;
+  padding: 0 10px;
+
+}
+
+
+
+.SearchInput input:focus-visible {
+  outline: none;
+}
+
+.leftSide {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.PokemonGallery {
+  margin: 0 25px;
+  color: white;
+}
